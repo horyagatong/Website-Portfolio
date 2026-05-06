@@ -175,6 +175,7 @@ body a{
 }
 .project-box .project-card{
     background-color: #041421;
+    box-shadow: 0 0 10em #86b9b0;
     width: 35em;
     height: 35em;
     margin: 2em;
