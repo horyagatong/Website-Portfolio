@@ -19,11 +19,12 @@ body a{
 }
 
 .header-box{
-    background-color: #4c7273;
-    border-radius: 9px;
+    background-color: #042630;
+    box-shadow: 0 0 10px #4c7273;
+    border-radius: 1em;
     width: 16em;
     height: 5px;
-    top: 5%;
+    top: 3%;
     left: 43%;
     z-index: 2;
     position: fixed;
