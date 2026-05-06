@@ -22,6 +22,29 @@ body a{
     font-family: 'Pixelify Sans', sans-serif;
 }
 
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    color: white;
+    background: linear-gradient(to right, #041421 20%, rgba(4, 20, 33, 0) 80%), 
+                url('game.gif');
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-color: #041421; 
+}
+.hero-content {
+    max-width: 600px;
+    z-index: 2; 
+}
+.role {
+    color: #86b9b0; 
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
 .header-box{
     background-color: #042630;
     box-shadow: 0 0 10px #4c7273;
