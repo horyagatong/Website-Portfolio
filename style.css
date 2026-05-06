@@ -6,6 +6,10 @@
   font-style: normal;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     color: white;
     background-color: #042630;
@@ -175,6 +179,7 @@ body a{
 }
 .project-box .project-card{
     background-color: #041421;
+    border-radius: 1em;
     box-shadow: 0 0 10em #86b9b0;
     width: 35em;
     height: 35em;
@@ -198,7 +203,6 @@ body a{
     transition: 0.3s;
 }
 .project-box .content-figure-container:hover{
-    box-shadow: 0 0 10px #86b9b0;
     scale: 1.3;
 }
 
@@ -217,10 +221,5 @@ body a{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.footer-box .figure-container img{
-    transition: 0.3s;
-}
-.footer-box .figure-container img:hover{
-    scale: 1.2;
+    gap: 2em;
 }
