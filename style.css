@@ -1,0 +1,224 @@
+
+.pixelify-sans-pixel {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    color: white;
+    background-color: #042630;
+    margin: 0;
+    font-family: "Pixelify Sans", sans-serif;
+    cursor: default;
+}
+body a{
+    text-decoration: none;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.header-box{
+    background-color: #4c7273;
+    border-radius: 9px;
+    width: 16em;
+    height: 5px;
+    top: 5%;
+    left: 43%;
+    z-index: 2;
+    position: fixed;
+    transition: 0.3s;
+}
+.header-box:hover{
+    background-color: #0426308c;
+    box-shadow: 0 0 10px #4c7273;
+    border-radius: 1em;
+    width: 16em;
+    height: 50px;
+    opacity: 1;
+}
+.header-box .header-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: 0.3s;
+}
+.header-box .header-container:hover{
+    opacity: 1;
+}
+.header-box .nav-links-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header-box .nav-links-container a{
+    display: block;
+    margin: 1em;
+}
+.header-box .nav-links-container img{
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+}
+.header-box .nav-links-container img:hover{
+    scale: 1.7;
+}
+
+.about-me-box{
+    background-color: #041421;
+    padding: 2em;
+}
+.about-me-box .am-content-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 2em;
+}
+.about-me-box .p-container{
+    cursor: default;
+    transition: 0.3s;
+}
+.about-me-box .p-container:hover{
+    scale: 1.05;
+}
+.about-me-box .paragraph-container p{
+    
+    font-size: 2em;
+    margin: 2em;
+}
+.about-me-box .img-container{
+    transition: 0.3s;
+}
+.about-me-box .img-container:hover{
+    scale: 1.1;
+}
+
+
+.skill-box .skill-container{
+    align-items: center;
+    text-align: center;
+}
+.skill-box .skill-content-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.skill-box .figure-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.skill-box .content-card {
+    background-color: #041421;
+    border: 2px solid black;
+    width: 15em;
+    margin: 2em;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.skill-box .content-card:hover {
+    scale: 1.2;
+    animation: none;
+}
+.skill-box .lang-skill-info {
+    margin: 1em;
+}
+
+.project-box .project-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.project-box .main-content-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.project-box .weapon-card{
+    position: absolute;
+    right: 65%;
+    background-color: #042630;
+    border-radius: 2em;
+    width: 5px;
+    opacity: 0;
+    scale: 0.5;
+    transition: 0.5s;
+}
+.project-box .weapon-card:hover{
+    background-color: #041421;
+    width: 15em;
+    scale: 1;
+    opacity: 1;
+}
+.project-box .feature-card{
+    position: absolute;
+    left: 65%;
+    background-color: #042630;
+    border-radius: 2em;
+    width: 5px;
+    opacity: 0;
+    scale: 0.5;
+    transition: 0.5s;
+}
+.project-box .feature-card:hover{
+    background-color: #041421;
+    width: 15em;
+    scale: 1;
+    opacity: 1;
+}
+.project-box .project-card{
+    background-color: #041421;
+    width: 35em;
+    height: 35em;
+    margin: 2em;
+}
+.project-box .figure-container{
+    margin: 0;
+}
+.project-box .parag-container{
+    margin: 2em;
+}
+.project-box .content-container{
+    opacity: 0.1;
+    transition: 0.3s;
+}
+.project-box .content-container:hover{
+    opacity: 1;
+    scale: 1.1;
+}
+.project-box .content-figure-container{
+    transition: 0.3s;
+}
+.project-box .content-figure-container:hover{
+    box-shadow: 0 0 10px #86b9b0;
+    scale: 1.3;
+}
+
+.footer-box{
+    background: linear-gradient(to top, #041421, #04263034);
+    height: 10em;
+    margin-top: 7em;
+    padding: 2em;
+}
+.footer-box .footer-container{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.footer-box .figure-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-box .figure-container img{
+    transition: 0.3s;
+}
+.footer-box .figure-container img:hover{
+    scale: 1.2;
+}
